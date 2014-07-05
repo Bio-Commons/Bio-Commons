@@ -2,7 +2,7 @@
 title: Bio-Commons
 email: info@biocommons.org
 description: "Bio-Commons"
-baseurl: ""
+baseurl: "/Bio-Commons"
 url: "http://www.biocommons.org"
 exclude: [README.md, Gemfile, Gemfile.lock]
 
