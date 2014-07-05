@@ -2,8 +2,8 @@
 title: Bio-Commons
 email: info@biocommons.org
 description: "Bio-Commons"
-baseurl: "/Bio-Commons"
-url: "http://www.biocommons.org"
+baseurl: ""
+url: "http://lenada.github.io/Bio-Commons"
 exclude: [README.md, Gemfile, Gemfile.lock]
 
 # Build settings
