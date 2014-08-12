@@ -1,0 +1,10 @@
+Many of the described topics on life science research and the management of the knowledge are, from a practical perspective, all about the handling of data. The results of scientific experiments create data, the registration and management of IP is based on data, the distribution of materials (like new antibiotics) requires data and the governance of all this is based on decisions about available data. It is therefore a logical conclusion to look for software in order to solve these questions and problems that are based on the handling of data. Citizens looked out for technical solutions and specified a number of requirements for software with which to handle knowledge under a Bio-Commons license. The list may yet be incomplete:
+•	Network neutrality: it needs to be operable by a decentralized community of users
+•	Scalability: it has be able to handle and store huge amounts of data (e.g. acquired by high throughput experimentation)
+•	Universality: it has to be able to handle any type of data and code (see Biostrike scenario and Bio-language)
+•	Historicity: any addition or change of data has to be provable for all times – to allow for contracts, citations, references and authorship etc.
+•	Reliability: storage and handling of data must be safe
+•	Resilience: the software must  be resilient against accidental or intentional damage
+•	Efficiency: the software must be efficient in terms of operation costs
+•	Convenience: the software must be convenient to use
+Furthermore, mechanisms like reputation systems, voting, personal authentication or secure anonymity for e.g. medical data would be useful features for Bio-Commons projects such as Biostrike. Eventually, a Bio-Economy could be created around Bio-Commons databases. Therefore, the possibility to digitally buy and sell data would be useful additions. 
