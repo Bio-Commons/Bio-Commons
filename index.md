@@ -15,6 +15,7 @@ With increasing knowledge and technical skill, the sphere in which intentional i
  
 
 
-## Workflow
+Workflow
+==========
 
 <img class="img-responsive" src="img/workflow/biocommons-workflow.png" alt="Workflow">
