@@ -14,6 +14,7 @@ With regards to biotechnology, society relies mainly on patents as means to enab
  
 
 
-## Workflow
+Workflow
+==========
 
 <img class="img-responsive" src="img/workflow/biocommons-workflow.png" alt="Workflow">
