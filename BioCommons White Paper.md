@@ -2,6 +2,7 @@
 layout: default
 title: "Bio-Commons WhitePaper"
 author: "R. Trojok"
+redirect_from: "/Bio-Commons/BioCommons%20White%20Paper/"
 ---
 
 **Author:** Rüdiger Trojok
