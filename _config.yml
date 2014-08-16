@@ -3,8 +3,8 @@ title: Bio-Commons
 email: info@biocommons.org
 description: "Bio-Commons"
 baseurl: ""
-url: "http://bio-commons.github.io/Bio-Commons"
-exclude: [README.md, Gemfile, Gemfile.lock]
+url: "http://bio-commons.github.io/"
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]
 
 # Build settings
 markdown: kramdown
