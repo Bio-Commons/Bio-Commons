@@ -1,6 +1,7 @@
 ---
 layout: default
 author: "R. Trojok"
+redirect_from: "/Bio-Commons/"
 ---
 <div class="jumbotron">
 	<div class="container">
