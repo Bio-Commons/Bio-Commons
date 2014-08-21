@@ -5,18 +5,48 @@ redirect_from: "/Bio-Commons/"
 ---
 <div class="jumbotron">
 	<div class="container">
-	<h1>Bio-Commons</h1>
-Abstract
-With increasing knowledge and technical skill, the sphere in which intentional intervention in nature are possible will further be expanded. Alternative IP regimes such as open-access and open-source could in future help to leverage the cost for research and development in the life sciences, mobilize unused knowledge and become more adaptable to spark new inventions. Citizens proposed a ‘Bio-Commons’ license model to put biological innovation into service to society and at the same time limit the potential misuse of knowledge and material. Taking the antibiotic resistance problem as an example, this whitepaper aims to demonstrate the necessity and feasibility of a Bio-Commons approach. Overuse of the available antibiotics and subsequent evolutionary pressure has led to the development of multi-resistant bacteria. Bacteria are under selective pressure and evolve mechanisms to avoid the antimicrobial effects of the antibiotics. Once developed, the genes for the resistance rapidly spread, and even cross over between different species - a process called horizontal gene transfer. It is therefore necessary to continuously develop new antibiotics to keep up pace with resistant bacteria. The reason for an exacerbation of the antibiotics problem into an antibiotics crisis is a market failure due to a lack of financial incentives for the pharmaceutical industry to develop new drugs like antibiotics with a small profit margin. Citizens thought of three possible scenarios of how to detect antibiotic substances from samples collected in the field. In a citizen science project dubbed ‘Biostrike’, people around the globe could contribute to the solution to the antibiotics problem by raising awareness on the issue. Citizens and Scientists could participate in a global community around Biostrike, collaborating to find new antibiotics. Specialists from all fields of expertise could put together their knowledge to build the tool sets – that is wetware, hardware and software - to enable decentralized research on antibiotics. The Bio-Commons license could make licensing of innovation and discovery easier for researchers and thereby stabilize global collaborations that will help overcome market failure situations as they exist in antibiotics research. A widely accepted regulatory framework would be required to provide legal security and reliability as well as equal, transparent, and fair terms for all participants. Before creating a legal framework for the Bio-Commons, the social relations and assumptions underlying an idea of the Bio-Commons need to be addressed. Opening up the Bio-Commons discussion and introducing democratic decision making will make everybody a stakeholder. To successfully initiate a broader discussion about the underlying principles for the Bio-Commons, a mutually understandable bio-language is needed that adequately describes the biological reality in digital form. The development of this bio-language in turn opens the possibility for responsible research and innovation already at the earliest stages in the development of a new living system. Citizens also looked for technical solutions and defined a number of requirements for software to handle the data generated under a Bio-Commons license. It was thought that the blockchain technology could in future comprise the technical infrastructure for the Bio-Commons. 
+	<h1><i class="fa fa-university"></i> Bio-Commons</h1>
+    <p>
+    Alternative IP regimes such as open-access and open-source could in future help to leverage the cost for research and development in the life sciences, mobilize unused knowledge and become more adaptable to spark new inventions. 
+    </p>
+    <p>
+            <a href="/bio/commons/white-paper/" class="btn btn-primary btn-xs" role="button">read the Bio-Commons Whitepaper  <i class="fa fa-file-text-o"></i> </a>
+    </p>
+        <p>
+    Discuss how to make best use of the Bio-Commons.
+    </p>
 
-	</p>
-        <p><a class="btn btn-primary btn-lg" role="button"  href="http://bio-commons.github.io/Bio-Commons/BioCommons%20White%20Paper/">Learn more »</a></p>
 	</div>
 </div>
  
-
-
-Workflow
-==========
-
-<img class="img-responsive" src="img/workflow/biocommons-workflow.png" alt="Workflow">
+<div class="container">
+	<div class="col-md-6">
+	<h2><i class="fa fa-rocket"></i> Bio-Strike</h2>
+	<p>
+	The overuse of available antibiotics and subsequent evolutionary pressure has led to the development of multi-resistant bacteria. In the Bio-Strike initiative, citizen around the globe collaborate to find new antibiotics and overcome the antibiotics crisis.
+	</p>
+	</div>
+	
+	
+	
+	<div class="col-md-6">
+	<h2><i class="fa fa-group"></i> Bio-Ethics</h2>
+		<p>
+	Ideas as right of self-determination, the definition of individuality, the human rights and the ontology of life itself need to be reinterpreted when formulating the ethical principles for the Bio-Commons. Define the divisive line between a fact- and value based reference system for the Bio-Commons.
+	</p>
+	</div>
+	
+	<div class="col-md-6">
+	<h2><i class="fa fa-legal"></i> Bio-Legal</h2>
+	<p>
+	Due to the shortcomings of patents and copyright to grasp the digital and analog nature of biological innovations and their failure to foster sustainable life science innovations, legal innovation appears necessary. Phrase the new intellectual property concept for the life sciences.
+	</p>
+	</div>
+	
+	<div class="col-md-6">
+	<h2><i class="fa fa-language"></i> Bio-Language</h2>
+	<p>
+	To initiate a discussion about the Bio-Commons and to develop a powerful tool for In-Silico biological innovation, an bio-language needs to be developed that precisely describes the biological reality in digital form. Contribute to the shape the Bio-Language of the future.
+	</p>
+	</div>
+</div>
