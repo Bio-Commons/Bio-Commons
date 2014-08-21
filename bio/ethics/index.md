@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Bio-Ethics"
+order: 2
+
 ---
 <div class="jumbotron">
 	<div class="container">
