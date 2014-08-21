@@ -1,3 +1,8 @@
+---
+layout: default
+
+---
+
 Purpose: To find a suitable app that can allow standardised photo taking to be integrated into The Biostrike Project's application
 
 Shortlisted: Happy Measure - measure and easily create 3D models of everything through Augmented Reality and 3D models. Doing away with rulers.
