@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Bio-Legal"
+order: 3
+
 ---
 <div class="jumbotron">
 	<div class="container">
