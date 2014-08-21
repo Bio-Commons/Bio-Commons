@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Bio-Strike"
+order: 1
 ---
 <div class="jumbotron">
 	<div class="container">
