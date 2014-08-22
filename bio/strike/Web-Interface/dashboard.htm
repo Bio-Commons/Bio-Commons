@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BioStrike Platform - Dashboard</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script type="text/javascript" src="javascript/Common.js"></script>
+		<script type="text/javascript" src="javascript/Popup.js"></script>
+		<script type="text/javascript" src="javascript/dashboard.js"></script>
+		<script type="text/javascript" src="javascript/Chart.js"></script>
+		
+		<link type="text/css" rel="stylesheet" href="css/annotorious.css" />
+		<script type="text/javascript" src="javascript/annotorious.min.js"></script>
+	</head>
+	<body class="layout_center">
+		<div id="widget_collection" class="widget popup">
+			<h1>
+				Stage 1: Acquisition of Bacteria - Soil Collection
+				<span class="close"><a href="javascript: popup_collection.close()">X</a></span>
+			</h1>
+			<div class="content">
+				<p>Time to collect some soil!<br /> Here are some things you need to do for this step.</p>
+				<form class="form_soil_collection">
+					<ol>
+						<li>Look for a suitable place to collect a soil sample.</li>
+						<li>
+							Place the soil sample in a clean container, take and upload some photos of the sample site!
+							<input type="file" />
+						</li>
+						<li>Record down the GPS location of the sample site.</li>
+						<input class="gps_latitude" name="gps_latitude" placeholder="Latitude" />
+						<input class="gps_longtitude" name="gps_longtitude" placeholder="Longtitude" />
+						<li>Describe the weather conditions during the time of collection.</li>
+						<input class="weather" name="weather" placeholder="Describe the weather conditions" />
+						<li>Record any other comments you think might be important to know.</li>
+						<input class="weather" name="others" placeholder="Describe other important information" />
+					</ol>
+					
+					<p style="text-align: center; color: #333333;">
+						Stage 1 - <b>Collection</b> - Dilution - Inoculation - Incubation - Stage 2 - Stage 3
+					</p>
+					<input type="button" value="Complete soil sample collection!" onclick="javascript: popup_collection.close(); popup_dilution.open();" />
+				</form>
+			</div>
+		</div>
+		<div id="widget_dilution" class="widget popup">
+			<h1>
+				Stage 1: Soil Sample Dilution
+				<span class="close"><a href="javascript: popup_dilution.close()">X</a></span>
+			</h1>
+			<div class="content">
+				<p>It is important to dilute the soil so that your petri dish does not get overcrowded with too many cultures which makes it difficult to identify them.</p>
+				<form class="form_soil_dilution">
+					<ol>
+						<li>Prepare sterilized test tubes containing 9ml  water each</li>
+						<li>
+							Count and label them (eg. 6 test tubes, T1 to T6)
+							<input type="text" placeholder="Name of test tube" /><input type="button" value="Add test tube" />
+							<p>
+								You added these test tubes:
+								<ul class="test_tube_list">
+									<li>T1 [<a href="#">remove</a>]</li>
+									<li>T2 [<a href="#">remove</a>]</li>
+									<li>T3 [<a href="#">remove</a>]</li>
+									<li>T4 [<a href="#">remove</a>]</li>
+									<li>T5 [<a href="#">remove</a>]</li>
+								</ul>
+							</p>
+						</li>
+						<li>Place 1g of soil sample into the first test tube (T1)</li>
+						<li>Swirl test tube to mix solution well</li>
+						<li>Take 1ml out of the test tube and place diluted sample into the next one and swirl to mix solution well</li>
+						<li>(1ml  from T1 to T2, 1ml from T2, to T3 and so on)</li>
+						<li>Repeat above step until all test tubes contain a sample</li>
+					</ol>
+					
+					<p style="text-align: center; color: #333333;">
+						Stage 1 - Collection - <b>Dilution</b> - Inoculation - Incubation - Stage 2 - Stage 3
+					</p>
+					<input type="button" value="Complete soil sample dilution!"  onclick="javascript: popup_dilution.close(); popup_inoculation.open()" />
+				</form>
+			</div>
+		</div>
+		<div id="widget_inoculation" class="widget popup">
+			<h1>
+				Stage 1: Bacteria Inoculation
+				<span class="close"><a href="javascript: popup_inoculation.close()">X</a></span>
+			</h1>
+			<div class="content">
+				<p>Give your bacteria a home to start growing!</p>
+				<form class="form_inoculation">
+					<ol>
+						<li>Prepare sterile petri dish with agar medium</li>
+						<li>
+							My agar is 
+							<select>
+								<option>homemade</option>
+								<option>purchased from ...</option>
+								<option>acquired from ... lab</option>
+							</select>
+						</li>
+						<li>
+							I am using the test tube labeled 
+							<select>
+								<option>T1</option>
+								<option>T2</option>
+								<option>T3</option>
+							</select>
+							to extract bacteria for inoculation
+						</li>
+						<li>Dip sterilized inoculation loop into test tube containing diluted sample</li>
+						<li>Streak tip of the inoculation loop with sample onto the agar surface</li>
+					</ol>
+					
+					<p style="text-align: center; color: #333333;">
+						Stage 1 - Collection - Dilution - <b>Inoculation</b> - Incubation - Stage 2 - Stage 3
+					</p>
+					<input type="button" value="Complete bacteria inoculation!"  onclick="javascript: popup_inoculation.close();popup_incubation_1.open();" />
+				</form>
+			</div>
+		</div>
+		<div id="widget_incubation_1" class="widget popup">
+			<h1>
+				Stage 1: Soil Sample Plate Incubation
+				<span class="close"><a href="javascript: popup_incubation_1.close()">X</a></span>
+			</h1>
+			<div class="content">
+				<p>The home needs to belong to a nice environment, somewhere warm - around 37 degree celsius should do!</p>
+				<form class="form_incubation_1">
+					<ol>
+						<li>
+							Are you using an incubator for the plate?
+							<input type="checkbox" />
+						</li>
+						<li>
+							<input type="button" value="Add a log for today!" />
+							<p>
+								Logs so far
+								<ul class="test_tube_list">
+									<li><a href="#">25 March 2014</a></li>
+									<li><a href="#">24 March 2014</a></li>
+									<li><a href="#">23 March 2014</a></li>
+									<li><a href="#">22 March 2014</a></li>
+									<li><a href="#">21 March 2014</a></li>
+								</ul>
+							</p>
+						</li>
+					</ol>
+					
+					<p style="text-align: center; color: #333333;">
+						Stage 1 - Collection - Dilution - Inoculation - <b>Incubation</b> - Stage 2 - Stage 3
+					</p>
+					<input type="button" value="End incubation and move on to stage 2"  onclick="javascript: popup_incubation_1.close(); popup_identification.open(); anno.makeAnnotatable(document.getElementById('image'))" />
+				</form>
+			</div>
+		</div>
+		
+		<div id="widget_identification" class="widget popup">
+			<h1>
+				Stage 2: Culture/Colony Identification
+				<span class="close"><a href="javascript: popup_identification.close()">X</a></span>
+			</h1>
+			<div class="content">
+				 <img src="assets/images/lab/experiments/dish.jpg" id="image">
+			</div>
+		</div>
+		<nav>
+			<b>Dashboard</b>
+			<span id="logout"><a href="index.htm">Logout</a></span>
+		</nav>
+		<div class="layout_columns_3">
+			<div id="widget_dashboard_me" class="widget">
+				<h1>Me</h1>
+				<div class="content">
+					<h2><a href="user.htm">ActinoScope</a></h2>
+					<div class="profile_picture">
+						<a href="user.htm">
+							<img src="assets/images/profiles/individual/Dennis.jpg" width="100%" height="100%" alt="Picture of you" title="That's you!" />
+						</a>
+					</div>
+					<p id="container_user_points">
+						<span id="user_points">0</span>
+						<br />
+						<span>Points so far</span>
+					</p>
+					<hr />
+					<h3>Recent Activity</h3>
+					<ul id="recent_activity">
+						<li>
+							<a href="#">Started a new project - Backyard Soil<br /><span class="timestamp">2 hours ago</span></a>
+						</li>
+						<li>
+							<a href="#">Joined group - L'Observatoire<br /><span class="timestamp">1 week ago</span></a>
+						</li>
+						<li>
+							<a href="#">Started a new group - BioStrike SG<br /><span class="timestamp">2 months ago</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="layout_columns_3">
+			<div id="widget_dashboard_groups" class="widget">
+				<h1>Groups</h1>
+				<div class="content">
+					<h2>
+						<a href="group.htm">
+							BioStrike SG
+						</a>
+					</h2>
+					<div class="profile_picture">
+						<a href="group.htm">
+							<img src="assets/images/profiles/group/biostrike-sg.jpg" width="100%" height="100%" alt="Picture of you" title="That's you!" />
+						</a>
+					</div>
+					<p class="container_group_points">
+						<span id="group_biostrikesg_points" class="group_points">0</span>
+						<br />
+						<span>Points so far</span>
+						<br />
+						<div class="medals">
+							<img src="assets/images/gamification/trophy/bronze.png" width="40" height="36" alt="Global #59" title="Top #59 in the world" />
+							<img src="assets/images/gamification/trophy/silver.png" width="40" height="36" alt="Asia #10" title="Top #10 in Asia" />
+							<img src="assets/images/gamification/trophy/gold.png" width="40" height="36" alt="Singapore #1" title="#1 in Singapore" />
+						</div>
+					</p>
+					<hr />
+					<h2>
+						<a href="group.htm">
+							L'Observatoire
+						</a>
+					</h2>
+					<div class="profile_picture">
+						<a href="group.htm">
+							<img src="assets/images/profiles/group/l-observatoire.jpg" width="100%" height="100%" alt="Picture of you" title="That's you!" />
+						</a>
+					</div>
+					<p class="container_group_points">
+						<span  id="group_lobservatoire_points" class="group_points">0</span>
+						<br />
+						<span>Points so far</span>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="layout_columns_3">
+			<div id="widget_process" class="widget">
+				<h1>Projects</h1>
+				<div class="content">
+					<form id="form_create_project" method="post" action="project_1.htm">
+						<input style="width: 75%; font-size: 0.8em;" name="name" type="text" placeholder="Type in a new project name" />
+						<input style="width: 20%; font-size: 1em;" type="submit" value="Go!" />
+					</form>
+					<div class="projects">
+						<ul>
+							<li>
+								<input name="radio_stage" id="radio_stage_1" type="radio" />
+								<a href="#">
+									<label for="radio_stage_1">Stage 1<span class="item_count">6</span></label>
+								</a>
+								<ul>
+									<li>
+										<a href="#">Collection</a>
+										<ul>
+											<li><a href="javascript: popup_collection.open()">NUS UTown Greens</a></li>
+											<li><a href="javascript: popup_collection.open()">The Deck</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Dilution</a>
+										<ul>
+											<li><a href="javascript: popup_dilution.open()">Turf Club Grass Patch</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Inoculation</a>
+										<ul>
+											<li><a href="javascript: popup_inoculation.open()">MacRitchie</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Incubation</a>
+										<ul>
+											<li><a href="javascript: popup_incubation_1.open()">Dawn's garden</a></li>
+											<li><a href="javascript: popup_incubation_1.open()">Dennis's backyard</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<input name="radio_stage" id="radio_stage_2" type="radio" />
+								<a href="#">
+									<label for="radio_stage_2">Stage 2<span class="item_count">5</span></label>
+								</a>
+								<ul>
+									<li>
+										<a href="#">Identification</a>
+										<ul>
+											<li><a href="javascript: popup_identification.open(); anno.makeAnnotatable(document.getElementById('image'))">Furry</a></li>
+											<li><a href="javascript: popup_identification.open(); anno.makeAnnotatable(document.getElementById('image'))">Maggots</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Testing</a>
+										<ul>
+											<li><a href="#">Venom</a></li>
+											<li><a href="#">Chewtoy</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">Incubation</a>
+										<ul>
+											<li><a href="#">Sleeping Monster</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<input name="radio_stage" id="radio_stage_3" type="radio" />
+								<a href="#">
+									<label for="radio_stage_3">Stage 3<span class="item_count">4</span></label>
+								</a>
+								<ul>
+									<li>
+										<a href="#">Identification</a>	
+										<ul>
+											<li><a href="#">The One</a></li>
+											<li><a href="#">Killer</a></li>
+										</ul>
+									</li>
+									<li>
+										<a href="#">DNA Sequencing</a>
+										<ul>
+											<li><a href="#">Lost Cause</a></li>
+											<li><a href="#">FutureTech</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="widget_dashboard_world" class="widget">
+				<h1>World</h1>
+				<div class="content">
+					<ul class="accordian">
+						<li><a href="#">Africa</a></li>
+						<li><a href="#">Europe</a></li>
+						<li>
+							<a href="#">Asia</a>
+							<ul class="accordian_sub">
+								<li><a href="#">Singapore</a></li>
+								<li><a href="#">Malaysia</a></li>
+							</ul>
+						</li>
+						<li><a href="#">North America</a></li>
+						<li><a href="#">South America</a></li>
+						<li><a href="#">Antartica</a></li>
+						<li><a href="#">Australia</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="widget_dashboard_market" class="widget">
+				<h1>Market</h1>
+				<div class="content">
+					<h3>Agar Plates</h3>
+					<canvas id="chart_agar">
+						
+					</canvas>
+					<hr />
+					<h3>E-Coli Plates</h3>
+					<canvas id="chart_ecoli">
+						
+					</canvas>
+					<hr />
+					<h3>Analysis Kits</h3>
+					<canvas id="chart_analysis">
+						
+					</canvas>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
