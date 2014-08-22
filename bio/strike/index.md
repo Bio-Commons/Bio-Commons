@@ -5,7 +5,7 @@ order: 1
 ---
 <div class="jumbotron">
 	<div class="container">
-	<h1>Bio-Strike</h1>
+	<h1><i class="fa fa-rocket"></i> Bio-Strike</h1>
     <p>
 The overuse of available antibiotics and subsequent evolutionary pressure has led to the development of multi-resistant bacteria. In the Bio-Strike initiative, citizen around the globe collaborate to find new antibiotics and overcome the antibiotics crisis.
     </p>
@@ -22,7 +22,7 @@ The overuse of available antibiotics and subsequent evolutionary pressure has le
 - [AR for Science Measuring](/bio/strike/AR-for-Science-Measuring/HappyMeasureAppWriteup/)
 - [Biocoins](/bio/strike/Biocoins/Biocoin-Concept)
 - [Protocol and Issues](/bio/strike/Protocol-and-Issues/BioStrike-SG-Protocol/)
-- [Web-Interface](/bio/strike/Web-Interface)
+- [Web-Interface](/bio/strike/Web-Interface/dashboard.htm)
 
 Resources
 ---------
