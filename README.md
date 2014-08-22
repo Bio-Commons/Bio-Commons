@@ -5,8 +5,8 @@ Bio-Commons
 Alternative IP regimes such as open-access and open-source could in future help to leverage the cost for research and development in the life sciences, mobilize unused knowledge and become more adaptable to spark new inventions.
 Discuss how to make best use of the Bio-Commons.
 
-### contributing
-- fork this repository
+### Contributing
+- fork this repository [fork](/Bio-Commons/Bio-Commons/fork)
 - create a new topics/working branch named `topics/description-of-what-you-are-working-on`
 - change to your just created branch
 - make changes to content (most content is written in markdown format)
