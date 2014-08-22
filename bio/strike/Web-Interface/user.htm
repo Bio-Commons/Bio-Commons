@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>BioStrike Platform - Dashboard</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script type="text/javascript" src="javascript/Common.js"></script>
+		<script type="text/javascript" src="javascript/user.js"></script>
+	</head>
+	<body>
+		<div class="layout_center">
+			<nav>
+				<a href="dashboard.htm">Dashboard</a> &gt;
+				<b>ActinoScope</b>
+				<span id="logout"><a href="index.php">Logout</a></span>
+			</nav>
+			<div class="layout_columns_3">
+				<div id="widget_dashboard_me" class="widget">
+					<h1>Me</h1>
+					<div class="content">
+						<h2><a href="user.php">ActinoScope</a></h2>
+						<div class="profile_picture">
+							<a href="user.htm">
+								<img src="assets/images/profiles/individual/Dennis.jpg" width="100%" height="100%" alt="Picture of you" title="That's you!" />
+							</a>
+						</div>
+						<p id="container_user_points">
+							<span id="user_points">0</span>
+							<br />
+							<span>Points so far</span>
+						</p>
+						<hr />
+						<h3>Recent Activity</h3>
+						<ul id="recent_activity">
+							<li>
+								<a href="#">Started a new project - Backyard Soil<br /><span class="timestamp">2 hours ago</span></a>
+							</li>
+							<li>
+								<a href="#">Joined group - L'Observatoire<br /><span class="timestamp">1 week ago</span></a>
+							</li>
+							<li>
+								<a href="#">Started a new group - BioStrike SG<br /><span class="timestamp">2 months ago</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="layout_columns_3x2">
+				<div id="widget_dashboard_groups" class="widget">
+					<h1>Lab Book</h1>
+					<div class="content">
+						<div class="lab_post">
+							<h2>
+								Undiluted Dish
+							</h2>
+							<img src="assets/images/lab/experiments/dish_undiluted.jpg" />
+						</div>
+						<hr />
+						<div class="lab_post">
+							<h2>
+								Diluted Dish
+							</h2>
+							<img src="assets/images/lab/experiments/dish_diluted.jpg" />
+						</div>
+						<hr />
+						<div class="lab_post">
+							<h2>
+								E-Coli Dish
+							</h2>
+							<img src="assets/images/lab/experiments/dish_ecoli.jpg" />
+						</div>
+						<hr />
+						<div class="lab_post">
+							<h2>
+								Yellow Colony - Undiluted Dish
+							</h2>
+							<img src="assets/images/lab/experiments/dish_closeup_yellow-colony.jpg" />
+						</div>
+						<hr />
+						<div class="lab_post">
+							<h2>
+								White Colony - Undiluted Dish
+							</h2>
+							<img src="assets/images/lab/experiments/dish_closeup_white-colony.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

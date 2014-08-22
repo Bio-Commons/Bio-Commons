@@ -1,0 +1,460 @@
+html, body, h1, h2, div, input, ul, li, a , label
+{
+	margin: 0;
+	padding: 0;
+}
+
+input
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: #EEEEEE;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333333;
+}
+
+#widget_login
+{
+	text-align: center;
+	max-width: 250px;
+	max-height: 300px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.widget .content
+{
+	background-color: #FFFFFF;
+	padding: 1em;
+	padding-bottom: 0.5em;
+	border-bottom-left-radius: 0.3em;
+	border-bottom-right-radius: 0.3em;
+	border: 1px solid #AAAAAA;
+	//box-shadow: 0em 0em 0.5em #888888;
+}
+
+#widget_dashboard_world .content
+{
+	padding: 0;
+}
+
+#widget_login_facebook,
+#widget_login_twitter
+{
+	display: inline-block;
+	max-width: 137px;
+	max-height: 51px;
+	height: 2.5em;
+	width: 45%;
+}
+
+.profile_picture
+{
+	box-sizing: border-box;
+	max-width: 160px;
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 0.2em;
+	border-color: #888888;
+	border-style: solid;
+	border-width: 0.1em;
+	padding: 0.2em;
+}
+
+.widget h1
+{
+	background-color: #EEEEEE;
+	font-size: 1em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 0.3em;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	
+	border: 1px solid #AAAAAA;
+	border-bottom: none;
+	//box-shadow: 0em 0em 0.5em #888888;
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover
+{
+	color: #ee4422;
+}
+
+.widget input
+{
+	width: 100%;
+	font-size: 1.3em;
+	height: 1.5em;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.layout_center
+{
+	text-align: center;
+	padding: 1em;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.layout_columns_3,
+.layout_columns_3x2
+{
+	display: block;
+	float: left;
+}
+
+.widget
+{
+	margin: 0.5em;
+}
+
+.widget h2
+{
+	font-size: 2em;
+	margin-bottom: 0.3em;
+}
+
+#user_points,
+#widget_dashboard_groups .container_group_points .group_points
+{
+	font-size: 3em;
+}
+
+.widget input[type="text"],
+.widget input[type="password"]
+{
+	padding: 1em;
+}
+
+.widget input[type="submit"]
+{
+	font-size: 1.3em;
+	margin-top: 0.2em;
+	width: 100%;
+	height: 1.8em;
+}
+
+#recent_activity li
+{
+	list-style: none;
+}
+
+#recent_activity li > a
+{
+	display: block;
+	padding: 0.5em 0;
+	border-top: rgba(0, 0, 0, 0.1);
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+#recent_activity
+{
+	text-align: left;
+}
+
+#recent_activity li
+{
+	padding: 0 0.5em;
+}
+
+#recent_activity .timestamp
+{
+	display: block;
+	width: 100%;
+	text-align: right;
+	font-size: 0.8em;
+	color: #888888;
+	margin-top: 1em;
+}
+
+#recent_activity li:hover
+{
+	background-color: #E5E5F6;
+}
+
+#canvas_agar .content
+{
+	overflow: hidden;
+}
+
+.lab_post img
+{
+	max-width: 100%;
+	width: auto;
+	height: auto;
+	max-height: 20em;
+}
+
+nav
+{
+	padding: 1em;
+	text-align: left;
+}
+
+#logout
+{
+	float: right;
+}
+
+#chart_agar,
+#chart_ecoli,
+#chart_analysis
+{
+	width: 100% !important;
+	height: auto !important;
+}
+
+.accordian li
+{
+	list-style: none;
+}
+
+.accordian li > a
+{
+	display: block;
+	padding: 0.5em 0;
+    border-bottom: 1px solid rgba(0,0,0, .1);
+}
+
+.accordian li:last-child a
+{
+    border-bottom: none;
+}
+.accordian_sub li a
+{
+    background-color: #e5e5f6;
+    box-shadow: inset 0 0.1em 0 0 rgba(255,255,255, .1), 0 0.1em 0 0 rgba(0,0,0, .1);
+	border-bottom: 1px solid #c9c9c9;
+}
+
+.accordian > li:hover > a
+{
+    background-color: #c3c3d4;
+    color: #333333;
+    font-weight: bold;
+}
+
+.accordian_sub li:hover a
+{
+	background-color :#AAAACC;
+    color: #333333;
+    font-weight: bold;
+}
+
+.accordian li > .accordian_sub
+{
+	max-height: 0;
+	overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.accordian li:hover > .accordian_sub
+{
+	max-height: 9em;
+}
+
+.accordian_sub li:last-child a
+{
+	border-bottom: none;
+}
+
+@media (max-width: 600px)
+{
+	.layout_columns_3,
+	.layout_columns_3x2
+	{
+		width: 100%;
+	}
+}
+
+@media (max-width: 800px)
+{
+	.widget h2
+	{
+		font-size: 1.7em;
+	}
+}
+
+@media (max-width: 300px)
+{
+	.widget h2
+	{
+		font-size: 1.2em;
+	}
+}
+
+@media (min-width: 600px)
+{
+	.layout_columns_3
+	{
+		width: 33.33333333333333%;
+	}
+	.layout_columns_3x2
+	{
+		width: 66.66666666666666%;
+	}
+}
+
+#button_new_project
+{
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	font-weight: bold;
+}
+
+#button_new_project:before
+{
+	content: "+";
+	padding-right: 1em;
+}
+
+.cancel_x
+{
+	float: right;
+	padding-right: 1em;
+}
+
+ul
+{
+	list-style: none;	
+}
+
+.projects ul li a
+{
+	display: block;
+}
+
+.projects ul li input
+{
+	display: none;
+}
+
+.projects a label
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding: 0.2em;
+	cursor: auto;
+}
+
+.projects > ul > li > a
+{
+	font-weight: bold;
+	background-color: #A9A9A9;
+	padding: 0.2em;
+	color: #EEEEEE;
+	font-size: 1.1em;
+	border-bottom: 1px solid #999999;
+}
+
+.projects > ul > li:hover > a
+{
+	background-color: #A9B8C7;
+}
+
+.projects > ul > li > ul
+{
+	max-height: 0;
+	overflow: hidden;
+}
+
+.projects > ul > li > ul > li > a
+{
+	font-weight: bold;
+	background-color: #D7D7D7;
+	color: #3D3D3D;
+	padding: 0.2em;
+}
+
+.projects > ul > li > ul > li > ul > li:hover > a
+{
+	background-color: #A9A9B8;
+}
+
+.projects > ul > li > ul > li > ul > li > a
+{
+	background-color: #EAEAEA;
+	color: #2C2C2C;
+	padding: 0.2em;
+}
+
+.projects > ul > li > input:checked ~ ul
+{
+	max-height: 99em;
+}
+
+.projects ul li .item_count
+{
+	background-color: #EEEEEE;
+	color: #A9A9A9;
+	padding: 0 0.5em;
+	border-radius: 0.5em;
+	margin: 0 0.5em;
+	font-weight: normal;
+	font-size: 0.8em;
+	float: right;
+	margin-top: 0.2em;
+}
+
+.popup
+{
+	display: none;
+}
+
+.popup .close
+{
+	float: right;
+	margin-right: 0.5em;
+}
+
+.form_soil_collection,
+.form_soil_dilution,
+.form_inoculation,
+.form_incubation_1
+{
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.form_soil_collection .gps_latitude,
+.form_soil_collection .gps_longtitude
+{
+	width: 40%;
+}
+
+.form_soil_collection .others
+{
+	width: 100%;
+}
+
+.test_tube_list
+{
+	line-height: 1em;
+	list-style: circle;
+	padding-left: 1em;
+}
+
+
+
