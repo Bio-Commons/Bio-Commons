@@ -1,29 +1,52 @@
-<div class="navbar navbar-inverse navbar-static-top" role="navigation">
+<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Bio<span class="glyphicon glyphicon-adjust"></span>Commons</a>
+            <a class="navbar-brand" href="{{ BASE_PATH }}/index.html">Bio<span class="glyphicon glyphicon-adjust"></span>Commons</a>
         </div>
-        <div class="collapse navbar-collapse ">
-            <ul class="nav navbar-nav">
-                {% assign sorted_pages = site.pages | sort:"order" %}
-                {% for node in sorted_pages %}
-                {% if node.title != null %}
-                {% if group == null or group == node.group %}
-                {% if page.url == node.url or node.url contains page.category %}
-                <li class="active"><a href="{{ BASE_PATH }}{{node.url}}" class="active">{{node.title}}</a></li>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+
+                {% for node in site.data.nav %}
+
+                <!-- check to see if the data file has a submenu, and if so display it -->
+                {% if node.subcategories != null %}
+                    {% if page.url == node.href or page.url contains node.href%}
+                        <li class="active dropdown">
+                    {% else %}
+                        <li class="dropdown">
+                    {% endif %}
+                    <a href="{{ BASE_PATH }}{{ node.url }}" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">{{ node.title }}<i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                        {% for subcategory in node.subcategories %}
+                        {% if page.url == subcategory.subhref %}
+                        <li class="active">
+                            {% else %}
+                        <li>
+                        {% endif %}
+                        <a href="{{ BASE_PATH }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+
+                    <!— display the top level navigation for items that don’t have a submenu -->
+                {% if page.url == node.href %}
+                <li class="active">
                 {% else %}
-                <li><a href="{{ BASE_PATH }}{{node.url}}">{{node.title}}</a></li>
+                <li>
                 {% endif %}
-                {% endif %}
-                {% endif %}
+                <a href="{{ BASE_PATH }}{{ node.href }}">{{ node.title }}</a>
+                    {% endif %}
+                </li>
                 {% endfor %}
             </ul>
-        </div><!--/.nav-collapse -->
-    </div>
-</div>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>

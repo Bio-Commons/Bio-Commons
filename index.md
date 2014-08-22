@@ -1,7 +1,6 @@
 ---
-layout: default
-author: "R. Trojok"
-redirect_from: "/Bio-Commons/"
+layout: home
+title: Welcome
 ---
 <div class="jumbotron">
 	<div class="container">

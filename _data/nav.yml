@@ -1,0 +1,39 @@
+- title: "Home"
+  href: "/"
+ 
+- title: "Bio-Commons"
+  href: "/bio/commons/"
+  subcategories:
+    - subtitle: "Overview"
+      subhref: "/bio/commons/"
+    - subtitle: "Whitepaper"
+      subhref: "/bio/commons/white-paper/"
+
+- title: "Bio-Strike"
+  href: "/bio/strike/"
+  subcategories:
+    - subtitle: "Overview"
+      subhref: "/bio/strike/"
+    - subtitle: "AR for Science Measuring"
+      subhref: "/bio/strike/AR-for-Science-Measuring/HappyMeasureAppWriteup/"
+    - subtitle: "Biocoins"
+      subhref: "/bio/strike/Biocoins/Biocoin-Concept/"
+    - subtitle: "Protocol and Issues"
+      subhref: "/bio/strike/Protocol-and-Issues/BioStrike-SG-Protocol/"
+    - subtitle: "Web-Interface"
+      subhref: "/bio/strike/Web-Interface/dashboard.htm"
+
+- title: "Bio-Ethics"
+  href: "/bio/ethics/"
+ 
+ 
+- title: "Bio-Legal"
+  href: "/bio/legal/"
+ 
+ 
+- title: "Bio-Language"
+  href: "/bio/language/"
+ 
+ 
+- title: "FAQ"
+  href: "/faq/"
