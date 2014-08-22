@@ -16,6 +16,26 @@ Discuss how to make best use of the Bio-Commons.
 If all this forking, branching and pull-requests is not for your,
 just submit an issue [here](https://github.com/Bio-Commons/Bio-Commons/issues)
 
-#### folder structure
-this is a jekyll generated site [jekyll](http://jekyllrb.com)
+####Folder structure / which file to edit
+This is a jekyll generated site [jekyll](http://jekyllrb.com)
 The content mainly lives in the bio folder
+
+```
+Bio-Commons
+│   README.md
+│   file001.txt
+│
+└───bio
+
+    ├───commons
+    │   │   index.md (http://www.bio-commons.org/bio/commons/)
+    │   │   ...
+    │
+    └───strike
+    │   index.md
+    │   ...
+    |
+    └───language
+    │   index.md
+
+```
