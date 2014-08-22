@@ -23,7 +23,7 @@ The content mainly lives in the bio folder
 ```
 Bio-Commons
 │   README.md
-│   file001.txt
+│   ...
 │
 └───bio
 
