@@ -38,9 +38,9 @@ Alternative IP regimes such as open-access and open-source could in future help 
 
 ## <a name="Request for comments"></a>Request for comments 
 
-1. [x] blabla
+1. blabla [x] 
 
-2.  [ ] blubblub
+2.  blubblub [ ] 
 
 # <a name="References"></a>References 
 1 <a name="1"></a> http://en.wikiquote.org/wiki/Giordano_Bruno
