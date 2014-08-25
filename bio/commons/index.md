@@ -23,13 +23,13 @@ Alternative IP regimes such as open-access and open-source could in future help 
 * [Request for comments](#Abstract)
 * [References](#Abstract)
 # <a name="Preface"></a>Preface 
-# <a name="Abstract"></a>Preface 
-# <a name="Introduction"></a>Preface 
-# <a name="Materials"></a>Preface 
-# <a name="Methods"></a>Preface 
-# <a name="Results"></a>Preface 
-# <a name="Discussion"></a>Preface 
-# <a name="Request for comments"></a>Preface 
+# <a name="Abstract"></a>Abstract 
+# <a name="Introduction"></a>Introduction 
+# <a name="Materials"></a>Materials 
+# <a name="Methods"></a>Methods 
+# <a name="Results"></a>Results 
+# <a name="Discussion"></a>Discussion 
+# <a name="Request for comments"></a>Request for comments 
 ### RFC 1: blabla
 ### RFC 1: blubblub
 # <a name="References"></a>Preface 
