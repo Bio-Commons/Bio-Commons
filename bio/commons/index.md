@@ -38,7 +38,7 @@ Alternative IP regimes such as open-access and open-source could in future help 
 
 ## <a name="Request for comments"></a>Request for comments 
 
-1. [ ] blabla
+1. [x] blabla
 
 2.  [ ] blubblub
 
