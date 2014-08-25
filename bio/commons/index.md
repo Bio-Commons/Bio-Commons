@@ -22,11 +22,11 @@ Alternative IP regimes such as open-access and open-source could in future help 
 * [Request for comments](#Abstract)
 * [References](#Abstract)
 
-## <a name="Preface"></a>Preface 
-
 ## <a name="Abstract"></a>Abstract 
 
 ## <a name="Introduction"></a>Introduction 
+
+<sup>[1](#1)</sup>
 
 ## <a name="Results"></a>Results 
 
@@ -38,11 +38,10 @@ Alternative IP regimes such as open-access and open-source could in future help 
 
 ## <a name="Request for comments"></a>Request for comments 
 
-### RFC 1
-blabla
+1. [ ] blabla
 
-### RFC 2
-blubblub
+2.  [ ] blubblub
 
 # <a name="References"></a>References 
+1 <a name="1"></a> http://en.wikiquote.org/wiki/Giordano_Bruno
 
