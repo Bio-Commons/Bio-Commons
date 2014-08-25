@@ -16,10 +16,10 @@ Alternative IP regimes such as open-access and open-source could in future help 
 * [Preface](#Abstract)
 * [Abstract](#Abstract)
 * [Introduction](#Abstract)
-* [Materials](#Abstract)
-* [Methods](#Abstract)
 * [Results](#Abstract)
 * [Discussion](#Abstract)
+* [Materials](#Abstract)
+* [Methods](#Abstract)
 * [Request for comments](#Abstract)
 * [References](#Abstract)
 
@@ -29,13 +29,13 @@ Alternative IP regimes such as open-access and open-source could in future help 
 
 ## <a name="Introduction"></a>Introduction 
 
-## <a name="Materials"></a>Materials 
-
-## <a name="Methods"></a>Methods 
-
 ## <a name="Results"></a>Results 
 
 ## <a name="Discussion"></a>Discussion 
+
+## <a name="Materials"></a>Materials 
+
+## <a name="Methods"></a>Methods 
 
 ## <a name="Request for comments"></a>Request for comments 
 
@@ -45,5 +45,5 @@ blabla
 ### RFC 1
 blubblub
 
-# <a name="References"></a>Preface 
+# <a name="References"></a>References 
 
