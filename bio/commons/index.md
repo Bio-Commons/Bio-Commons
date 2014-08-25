@@ -22,22 +22,22 @@ Alternative IP regimes such as open-access and open-source could in future help 
 * [Discussion](#Abstract)
 * [Request for comments](#Abstract)
 * [References](#Abstract)
-* 
-# <a name="Preface"></a>Preface 
 
-# <a name="Abstract"></a>Abstract 
+## <a name="Preface"></a>Preface 
 
-# <a name="Introduction"></a>Introduction 
+## <a name="Abstract"></a>Abstract 
 
-# <a name="Materials"></a>Materials 
+## <a name="Introduction"></a>Introduction 
 
-# <a name="Methods"></a>Methods 
+## <a name="Materials"></a>Materials 
 
-# <a name="Results"></a>Results 
+## <a name="Methods"></a>Methods 
 
-# <a name="Discussion"></a>Discussion 
+## <a name="Results"></a>Results 
 
-# <a name="Request for comments"></a>Request for comments 
+## <a name="Discussion"></a>Discussion 
+
+## <a name="Request for comments"></a>Request for comments 
 
 ### RFC 1
 blabla
