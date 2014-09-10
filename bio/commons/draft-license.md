@@ -2,7 +2,7 @@
 
 Since ownership over biological material does not simply arise by creating it, as is the case with copyright, licenses over biological materials or information still rely on contract agreements. The Bio-Commons project envisions to chance that, but for the time being, we offer old fashioned agreement templates as an alternative and for future reference.
 
-# Draft Bio-Commons Material Transfer Agreement 
+## Draft Bio-Commons Material Transfer Agreement 
 
 The Bio-Commons MTA consists of a contract and a license.
 
