@@ -35,10 +35,10 @@ Parties:
     - Signature:
 
  - Recipient:
-   - Name:
-   - Date:
-   - Location:
-   - Signature:
+    - Name:
+    - Date:
+    - Location:
+    - Signature:
 
 # Draft Bio-Commons MTA license
 
