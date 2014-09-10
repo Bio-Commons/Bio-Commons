@@ -6,13 +6,13 @@ Since ownership over biological material does not simply arise by creating it, a
 
 The Bio-Commons MTA consists of a contract and a license.
 
-# Draft Bio-Commons MTA contract
+### Draft Bio-Commons MTA contract
 
 Parties:
 
 -	Provider:
-Name: 
-Address:
+-- Name: 
+-- Address:
 
 -	Recipient: 
 Name:
