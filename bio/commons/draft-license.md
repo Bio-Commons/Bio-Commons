@@ -28,15 +28,17 @@ Parties:
  - Date:
 
 - Signatures:
- - Provider name:
- - Provider date:
- - Provider location: 
- - Provider signature:
+ - Provider   
+  - Name:
+  - Date:
+  - Location:
+  - Signature:
 
- - Recipient name:
- - Recipient date:
- - Recipient location:
- - Recipient signature:
+ - Recipient:
+  - Name:
+  - Date:
+  - Location:
+  - Signature:
 
 # Draft Bio-Commons MTA license
 
