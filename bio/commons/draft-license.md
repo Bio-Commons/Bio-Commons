@@ -21,11 +21,7 @@ Parties:
 - Materials:
  - Description:
 
-- Use:
- - Description of project:
-
-- Agreement termination date:
- - Date:
+Parties enter into an ever lasting agreement under the terms as listed in the Bio-Commons MTA license
 
 - Signatures:
  - Provider   
@@ -60,6 +56,6 @@ Modes of use
  1. Share alike
  2. Commercial use
  3. Derivatives (seeds?)
- 4. Enforce open source of entire project
+ 4. Enforce open source / publish entire project
  5. Exclusive license to the commons [yes]
  6. Authentic parties / no pseudonyms [yes]
