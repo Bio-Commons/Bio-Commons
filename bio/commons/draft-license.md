@@ -42,9 +42,7 @@ Parties:
 
 # Draft Bio-Commons MTA license
 
-End-users of the Material confirm awareness and acceptance of this MTA, explicitly: 
-
-1. Provider provides the Materials to Recipient.
+Provider provides the Materials to Recipient, whereby the Recipient confirms awareness and acceptance of this MTA, explicitly: 
 
 Ethical
 1. Human use (reproduction)
