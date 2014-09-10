@@ -10,9 +10,9 @@ Since ownership over biological material does not simply arise by creating it, a
 
 ## Draft Bio-Commons Material Transfer Agreement 
 
-The Bio-Commons MTA consists of a contract and a license.
+The Bio-Commons MTA consists of a [contract](#contract) and a [license](#License).
 
-### Draft Bio-Commons MTA contract
+### Draft Bio-Commons MTA <a name="Contract"></a>contract
 
 Parties:
 
@@ -27,7 +27,7 @@ Parties:
 - Materials:
  - Description:
 
-Parties enter into an ever lasting agreement under the terms as listed in the [Bio-Commons MTA licens](#License)
+Parties enter into an ever lasting agreement under the terms as listed in the [Bio-Commons MTA license](#License)
 
 - Signatures:
  - Provider   
@@ -65,3 +65,6 @@ Modes of use
  4. Enforce open source / publish entire project
  5. Exclusive license to the commons [yes]
  6. Authentic parties / no pseudonyms [yes]
+
+*These items are still open to discussion*
+*All terms need to be defined*
