@@ -45,11 +45,11 @@ Parties:
 Provider provides the Materials to Recipient, whereby the Recipient confirms awareness and acceptance of this MTA, explicitly: 
 
 Ethical
-1. Human use (reproduction)
-2. Clinical use
-3. Transgenic use
-4. Only peaceful use
-5. Liability [no]
+ 1. Human use (reproduction)
+ 2. Clinical use
+ 3. Transgenic use
+ 4. Only peaceful use
+ 5. Liability [no]
 
 Safety
 1. Food grade
