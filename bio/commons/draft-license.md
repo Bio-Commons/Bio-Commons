@@ -66,5 +66,8 @@ Modes of use
  5. Exclusive license to the commons [yes]
  6. Authentic parties / no pseudonyms [yes]
 
+
+### Notes
 *These items are still open to discussion*
+
 *All terms need to be defined*
