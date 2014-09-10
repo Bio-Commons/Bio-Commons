@@ -11,9 +11,9 @@ The Bio-Commons MTA consists of a contract and a license.
 Parties:
 
 -	Provider:
--- Name: 
--- Address:
-
+- - Name: 
+- - Address:
+ 
 -	Recipient: 
 Name:
 Address:
