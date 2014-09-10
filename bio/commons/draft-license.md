@@ -15,28 +15,28 @@ Parties:
  - Address:
  
 -	Recipient: 
-Name:
-Address:
+ - Name:
+ - Address:
 
 - Materials:
-Description:
+ - Description:
 
 - Use:
-Description of project:
+ - Description of project:
 
 - Agreement termination date:
-Date:
+ - Date:
 
 - Signatures:
-Provider name:
-Provider date:
-Provider location: 
-Provider signature:
+ - Provider name:
+ - Provider date:
+ - Provider location: 
+ - Provider signature:
 
-Recipient name:
-Recipient date:
-Recipient location:
-Recipient signature:
+ - Recipient name:
+ - Recipient date:
+ - Recipient location:
+ - Recipient signature:
 
 # Draft Bio-Commons MTA license
 
